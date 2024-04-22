@@ -1,0 +1,3 @@
+SELECT * FROM czas_pracy
+WHERE EXTRACT(MONTH FROM dzien) = 2
+ORDER BY dzien;
